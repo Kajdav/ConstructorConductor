@@ -50,7 +50,7 @@ var answers = [];
 
 var firstQuestion = new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?', answers, true, 'medium');
 var secondQuestion = new Question('T/F: JavaScript is just a scripting version of Java', answers, false, 'easy');
-var thirdQuestion = new Question("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value", answers, false, 'hard');
+var thirdQuestion = new Question("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value", answers, true, 'hard');
 
 
 //Now push all of your instances of Question into the questions Array
